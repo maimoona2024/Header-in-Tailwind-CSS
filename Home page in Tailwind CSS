@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <nav class="flex bg-purple-800 justify-between">
+      <img class="h-10 rounded-2xl pl-4 pt-4" src="https://cdn-assets-eu.frontify.com/s3/frontify-enterprise-files-eu/eyJwYXRoIjoid2VhcmVcL2ZpbGVcL3ltdkJYdmtBMXRlYUFUa1piSFRWLnBuZyJ9:weare:Jj91V_iXxCfgCHTNjmsQk9ByzHLel5HzEgAsoQ8RVhY?width=1025&height=1000" alt="" />
+      <ul class="justify-end space-x-4 px-2 py-4 text-white">
+        <li class="inline-block cursor-pointer">Home</li>
+        <li class="inline-block cursor-pointer">About</li>
+        <li class="inline-block cursor-pointer">Contact</li>
+        <li class="inline-block cursor-pointer">Services</li>
+      </ul>
+    </nav>
+    <main class="flex h-screen w-screen bg-purple-400 pl-9">
+      <div class="">
+        <div class="pt-40 text-3xl">
+          The Best Phone Seller in Pakistan.
+        </div>
+        <p class="w-1/9">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione, <br />
+            consequatur.
+        </p>
+        <div>
+          <button class="rounded-2xl bg-purple-800 px-4 py-1 text-white hover:bg-yellow-400 hover:text-black">Buy Now</button>
+          <button class="rounded-2xl bg-purple-800 px-4 py-1 text-white hover:bg-yellow-400 hover:text-black">Contact Us</button>
+        </div>
+        
+      </div>
+      <div class="flex items-center">
+          <img src="https://i.pinimg.com/736x/b0/55/86/b05586b086206d072b2f557d2b86c70d.jpg" class="h-32" alt="" />
+        </div>
+    </main>
+  </body>
+</html>
